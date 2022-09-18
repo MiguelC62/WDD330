@@ -17,22 +17,22 @@ const links = [
 links.forEach(listlinks);
    
    
-function listlinks() {
+  function listlinks(index) {
 
-  // Create elements to add to the document
-  let ol = document.querySelector('ol.weeks')
-  let li = document.createElement('li');
-  let a = document.createElement("a");       
-  
-  var linkText = document.createTextNode(label);
-  li.appendChild(linkText);
-  a.href = url;
-  
-  // Add/append the section(card) with the element
-  
-  li.appendChild(a);
-  
-  ol.appendChild(li);
+    // Create elements to add to the document
+    let ol = document.querySelector('ol.weeks')
+    let li = document.createElement('li');
+    let a = document.createElement("a");       
+    
+    var linkText = document.createTextNode(links[index].label);
+    li.appendChild(linkText);
+    a.href = links[index].url;
+    
+    // Add/append the section(card) with the element
+    
+    li.appendChild(a);
+    
+    ol.appendChild(li);
 
-  }
+    }
       
