@@ -25,7 +25,7 @@ function listlinks() {
   let a = document.createElement("a");       
   
   var linkText = document.createTextNode(label);
-  a.appendChild(linkText);
+  li.appendChild(linkText);
   a.href = url;
   
   // Add/append the section(card) with the element
