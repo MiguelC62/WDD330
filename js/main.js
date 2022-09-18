@@ -20,8 +20,11 @@ links.forEach(listlinks);
       let list = document.createElement('li');
       let p1 = document.createElement("a");       
       
-      p1.textContent = links.label;
+      var linkText = document.createTextNode(`${links.label}`);
+      p1.textContent = `${links.label}`;
       p1.href = links.url;
+      p1.appendChild(linkText);
+      
   
       // Add/append the section(card) with the element
       
