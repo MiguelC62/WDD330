@@ -20,7 +20,7 @@ links.forEach(listlinks);
       let li = document.createElement('li');
       let a = document.createElement("a");       
       
-      var linkText = document.createTextNode(`${links.label}`);
+      var linkText = document.createTextNode(links.label);
       a.appendChild(linkText);
       a.href = links.url;
      
