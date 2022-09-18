@@ -10,28 +10,27 @@ const links = [
 ];
   
     
-      
 links.forEach(listlinks);
    
    
     function listlinks() {
   
       // Create elements to add to the document
-      let list = document.createElement('li');
-      let p1 = document.createElement("a");       
+      let li = document.createElement('li');
+      let a = document.createElement("a");       
       
       var linkText = document.createTextNode(`${links.label}`);
-      p1.textContent = `${links.label}`;
-      p1.href = links.url;
-      p1.appendChild(linkText);
-      
-  
+      li.appendChild(linkText);
+      a.textContent = `${links.label}`;
+      a.href = links.url;
+     
       // Add/append the section(card) with the element
       
-      list.appendChild(p1);
+      li.appendChild(a);
       
       // Add/append the existing HTML div with the cards class with the section(card)
-      document.querySelector('ol.weeks').appendChild(list);
+      document.querySelector('ol.weeks').appendChild(li);
+
         
       }
       
