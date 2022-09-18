@@ -14,7 +14,7 @@ const links = [
 links.forEach(listlinks);
    
    
-    function listlinks(week) {
+    function listlinks() {
   
       // Create elements to add to the document
       let list = document.createElement('li');
