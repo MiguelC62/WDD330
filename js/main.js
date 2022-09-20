@@ -14,19 +14,19 @@ const links = [
 ];
   
     
-links.forEach(listlinks);
+links.forEach(listLinks);
    
    
-  function listlinks(index) {
+  function listLinks(week) {
 
     // Create elements to add to the document
     let ol = document.querySelector('ol.weeks')
     let li = document.createElement('li');
     let a = document.createElement("a");       
     
-    var linkText = document.createTextNode(links[index].label);
+    var linkText = document.createTextNode(week.label);
     li.appendChild(linkText);
-    a.href = links[index].url;
+    a.href = week.url;
     
     // Add/append the section(card) with the element
     
