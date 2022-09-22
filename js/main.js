@@ -34,9 +34,8 @@ links.forEach(listLinks);
     
     // Add/append the section(card) with the element
     
-    li.appendChild(a);
-    
     ol.appendChild(li);
+    ol.appendChild(a);
 
     }
       
