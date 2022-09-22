@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Team Activity</title>
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+
+  <body>
+    <h1>Team Activity</h1>
+    <h2>01</h2>
+
+    <label>Put a text: </label>
+    <input type="text" id="inputText">
+    <br>
+    <input type="button" id="bTxt" onclick="copyText()" value="Copy">
+    
+    <div id="one"> </div>
+
+    <h2>02</h2>
+    <label>Input a positive integer number: </label>
+    <input id="inputNumber" type="number" name="Number" value="0" >
+    <br>
+
+    <input type="button" id="bTxt" onclick="summing(inputNumber.value)" value="Result">
+    
+    <div id="two"> </div>
+
+    <h2>03</h2>
+    <label>Input first number: </label>
+    <input id="inputNumber1" type="number" name="Number1" value="0" >
+    <br>
+    <label>Input second number: </label>
+    <input id="inputNumber2" type="number" name="Number2" value="0" >
+    <br>
+    <input type="button" id="bTxt" onclick="adding()" value="Add">
+    
+    <div id="three"> </div>
+    
+    <script src="activity.js"> </script>
+  </body>
+</html>
