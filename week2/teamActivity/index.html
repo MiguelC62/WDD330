@@ -8,34 +8,84 @@
   <body>
     <h1>Team Activity</h1>
     <h2>01</h2>
-
+    <p>
+      Create a new html file. Add the code necessary to make it a valid document
+      Add a text input and a button. Put an empty div with an ID below those.
+      Add a script tag, write a function that will read the contents of the
+      input, and write them to the div. Call the function when the button is
+      pressed.
+    </p>
+    <br />
     <label>Put a text: </label>
-    <input type="text" id="inputText">
-    <br>
-    <input type="button" id="bTxt" onclick="copyText()" value="Copy">
-    
-    <div id="one"> </div>
+    <input type="text" id="inputText" />
+    <br />
+    <input type="button" id="bTxt" onclick="copyText()" value="Copy" />
+
+    <div id="one"></div>
 
     <h2>02</h2>
+    <p>
+      Write a new function that expects a number as an argument. It should take
+      that number and sum all the numbers up to the number provided. (ie n=5…so
+      it would do 1+2+3+4+5 = 15) It should return that value. When the button
+      is pressed it should read the number from the input. Make sure it is a
+      valid number, call the summing function you just wrote, and output the
+      result to the div.
+    </p>
+    <br />
     <label>Input a positive integer number: </label>
-    <input id="inputNumber" type="number" name="Number" value="0" >
-    <br>
+    <input id="inputNumber" type="number" name="Number" value="0" />
+    <br />
 
-    <input type="button" id="bTxt" onclick="summing(inputNumber.value)" value="Result">
-    
-    <div id="two"> </div>
+    <input
+      type="button"
+      id="bTxt"
+      onclick="summing(inputNumber.value)"
+      value="Result"
+    />
+
+    <div id="two"></div>
 
     <h2>03</h2>
+    <p>
+      Add an additional input to your HTML file. Add a + button. Write a
+      function that will take the numbers from each input, add them together,
+      and output the result to a div
+    </p>
+    <br />
     <label>Input first number: </label>
-    <input id="inputNumber1" type="number" name="Number1" value="0" >
-    <br>
+    <input id="inputNumber1" type="number" name="Number1" value="0" />
+    <br />
     <label>Input second number: </label>
-    <input id="inputNumber2" type="number" name="Number2" value="0" >
+    <input id="inputNumber2" type="number" name="Number2" value="0" />
+    <br />
+    <input type="button" id="bTxt" onclick="adding()" value="Add" />
+
+    <div id="three"></div>
+
+    <h1>Stretch Goal</h1>
+
+    <h2>01</h2>
+    <p>
+      Add some more features (subtract, multiply, etc) to your calculator. Make
+      sure to use each of the three methods at least once in your function
+      definitions. Discuss with your team the differences and if there is one
+      you prefer.
+    </p>
     <br>
-    <input type="button" id="bTxt" onclick="adding()" value="Add">
+    <label>Input first number: </label>
+    <input id="Num1" type="number" name="Num1" value="0" />
+    <br />
+    <label>Input second number: </label>
+    <input id="Num2" type="number" name="Num2" value="0" />
+    <br />
     
-    <div id="three"> </div>
-    
-    <script src="activity.js"> </script>
+    <input type="button" id="bTxt" onclick="subtract()" value="Subtract" />
+    <input type="button" id="bTxt" onclick="multiply()" value="Multiply" />
+    <input type="button" id="bTxt" onclick="division()" value="Division" />
+
+    <div id="oneB"></div>
+
+    <script src="activity.js"></script>
   </body>
 </html>
