@@ -146,3 +146,5 @@ const evens8 = data.reduce(function (acc, elem) {
   return acc;
 }, {});
 console.log(evens8);
+
+
