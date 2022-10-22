@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo app</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="container">
+       
+        <h1>Todos</h1>
+        <ul id="list">
+            <!-- dummy item -->
+            <li class="item" data-key="1594003133171">
+                <input type="checkbox" id="checkbox">
+                <label>Task</label> 
+                <button class="delete-button">X</button>
+            </li>
+            
+        </ul>   
+       
+        <div class ="controls" class="filter-todo" >
+            <button type="button" id="foot" onclick="filterSelection('all')">All</button>  
+            <button type="button" id="foot" onclick="filterSelection('active')">Active</button>
+            <button type="button" id="foot" onclick="filterSelection('completed')">Completed</button>   
+        </div>
+
+        <form id="form" class ="controls">
+            <input type="text" name="" id="input" placeholder="Add a ToDo...">
+            <button type="submit" id="add">Add</button>  
+        </form>
+       
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!--https://alonzocarlos95.github.io/WDD-330/W06/challenges/todolist/home.html-->
+
+
+
+
+  
