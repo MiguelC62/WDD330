@@ -2,7 +2,7 @@ body{
     background-color: #34495e
 }
 #container {
-    width: 450px;
+    width: 460px;
     height: auto;
     margin: 0 auto;
     text-align: center;
@@ -85,13 +85,13 @@ body{
     float: none;
     background-color: #2980b9;
     border-radius: 10px;
-    width: 100px;
+    width: 110px;
     height: 30px;
     margin: 5px;
     border: 2px solid #b5c5dd;
     position: relative;
     outline: 0;
-    font-size: large;
+    font-size: 19px;
 }
 
 #container .controls #input{
