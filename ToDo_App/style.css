@@ -61,8 +61,8 @@ body{
     position: relative;
     outline: 0;
 }
-/*
-#container ul li #check:checked::after {
+
+#container ul li #foot:checked::after {
     content: '\2714';
     font-size: 20px;
     position: absolute;
@@ -70,7 +70,7 @@ body{
     left: 7px;
     color: black;
 }
-*/
+
 #container ul li input[type='checkbox']:checked+label{
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.3);
@@ -129,33 +129,3 @@ body{
     position: relative;
     outline: 0;
 }
-
-/*
-#container .controls #input:focus {
-    outline: 0;
-}
-
-
-#container .controls button:focus{
-    outline: 0;
-}
-
-#container .controls button:hover{
-    transform: scale(1.05);
-}
-
-
-#container .controls #remove {
-    background-color: #c0392b;
-    border-radius: 10px;
-
-}
-#container .mycheck {
-    opacity: 1;
-    border-radius: 10px;
-}
-.visual {
-    opacity: 1 !important;
-    border-radius: 10px;
-}
-*/
