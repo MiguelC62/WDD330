@@ -1,0 +1,73 @@
+.ad-ad2 h1:hover span {
+    color: #484848;  
+    transform: translateX(40px);
+}
+
+.ad-ad2 h1 span {
+    font-size: 30px;
+    color: #999999;
+    display: inline-block;
+    transform: translateX(40px);
+}
+.ad-ad2 h1:hover span {
+    color: #484848;  
+    transform: translateX(40px) scale(1.5);
+}
+.ad-ad2 h1:hover span {
+    color: #484848;
+    transform: rotate(10deg) translateX(40px) scale(1.5);
+    transform: skew(15deg, 4deg);
+}
+.ad-ad2 h1:hover span {
+    color: #484848;
+    transform: skew(15deg, 4deg);
+}
+.ad-ad2 h1 span {
+    transition-property: transform; 
+    transition-duration: 0.2s;  
+    transition-timing-function: ease-out;
+    transition-delay: 50ms;
+}
+.ad-ad2 h1 span {
+    transition: transform 0.2s ease-out 50ms;
+}
+@keyframes moveRight { 
+    from {
+    transform: translateX(-50%);
+    }
+    to {
+    transform: translateX(50%);
+    }
+}
+
+@keyframes appearDisappear { 
+    0%, 100% {
+    opacity: 0;
+    }
+    20%, 80% {
+    opacity: 1;
+    }
+}
+
+@keyframes bgMove {
+    100% {
+    background-position: 120% 0;
+    }
+}
+.ad-ad3 :after {
+    content: '';
+    width: 90px;
+    height: 92px;
+    background-image: url(../images/bike_sprite.png);
+    display: block;
+    margin: auto;
+}
+
+@keyframes bike {
+    0% {
+    background-position: 0 0;
+    }
+    100% {
+        background-position: -360px 0;
+    }
+}

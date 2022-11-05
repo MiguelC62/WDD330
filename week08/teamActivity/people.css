@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #34495e
+}
+main {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.hidden {
+  display: none;
+}
+
+#peoplelist td {
+  cursor: pointer;
+}
+
+#detailsbox {
+  text-align: center;
+  width: 460px;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+  overflow: auto;
+  color: black;
+  border: 10px solid #01a3a4;
+  border-radius: 10px;
+}
+
+#detailsbox dl {
+  padding: 10px;
+  text-align: left;
+  color: blue;
+  font-size: 19px;
+}
+
+#peoplelist {
+  /* display: flex; */
+  flex-flow: row wrap;
+  list-style-type: none;
+}
+
+#peoplelist thead {
+  background-color: lightgray;
+}
+
+#peoplelist tr {
+  border: 1px solid;
+  padding: 0.5em;
+  height: 44px;
+}
+#peoplelist tr:nth-child(even) {
+  background-color: azure;
+}
+#peoplelist tr:hover {
+  background-color: bisque;
+  text-decoration: underline;
+}
+
+.listbox {
+  width: 460px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  overflow: auto;
+  color: black;
+  border: 10px solid #01a3a4;
+  border-radius: 10px;
+}
+
+body h1 {
+  width: 460px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  overflow: auto;
+  color: black;
+  border: 10px solid #01a3a4;
+  border-radius: 10px;
+}
+
+#prev, #next{
+  background: #2980b9;
+  margin-top: 2px;
+  cursor: pointer;
+  color: white;
+  float: none;
+  border-radius: 5px;
+  width: 110px;
+  height: 30px;
+  border: 2px solid #b5c5dd;
+  font-size: 19px;
+}
