@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WDD330 Final Project | FIFA QATAR 2022 </title>
+  <meta name="description"
+    content="Final Project page for WDD330: Web Frontend Development at Brigham Young University-Idaho" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?&family=Ubuntu:ital@1&display=swap&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <!-- scripts -->
+  <script src="js/main.js"  type="module"></script>
+  <script src="./js/scripts.js"  type="module"></script>
+ 
+</head>
+
+<body>
+  <header  class="divider" id="main-header">  </header>
+  <main>
+    <section id="sec-reservation">
+      
+      
+      
+      <form method="get" action="thankyou.html" id="form-reservation">
+        <div id="last-hotel" class="hotel-saved"><p>Last campus selected:</p></div>
+        <fieldset class="main-fieldss">
+          <legend>Make a reservation</legend>
+          <label class="lbl">Select a Stadium*
+            <select id="destination" class="select-lbl" name="destination" required>
+              <option value="">--Select a Stadium--</option>
+            </select> 
+          </label>
+          <label class="lbl">Select a Match*
+            <select id="destination" class="select-lbl" name="destination" required>
+              <option value="">--Pick a Match--</option>
+            </select> 
+          </label>
+          <label class="lbl">Number of Tickets*
+            <select id="roomCombo" class="select-lbl" name="room" required>
+              <option value="">--Select a Number--</option>
+            </select></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label class="lbl">First Name* <input type="text" name="fname" required> </label>
+          <label class="lbl">Last Name* <input type="text" name="lname" required> </label>
+          <label class="lbl">Email* <input type="email" name="email" placeholder="someone@provider.com" required>
+          </label>
+          <label class="lbl">Phone* <input type="tel" name="phone" pattern="[1-9]{1}[0-9]{9}" placeholder="1235551234" required>
+            <!--  -->
+          </label>
+          <!-- <label class="lbl">Business name* <input type="text" name="businessname" required> </label> -->
+
+          <label><input type="text" name="datetime" id="datetime-loaded" hidden> </label>
+        </fieldset>
+        
+        <input type="submit" value="Pay Now" class="button-reservation">
+
+      </form>
+
+
+
+    </section>
+  </main>
+  <footer  id="main-footer">
+
+  </footer>
+  
+
+
+
+</body>
+
+</html>
