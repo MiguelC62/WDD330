@@ -116,18 +116,6 @@ fetch(urlForecast)
     weatherIconFour.setAttribute('alt', descfour);
     captionDescFour.textContent = descfour;
 
-    var Xmas95 = new Date(data.list[40].dt_txt);
-    var weekday = Xmas95.getDay();
-    dayone = `${getWeekday(weekday)}, ${Xmas95.getDate()}`;
-    forecastFive.textContent = dayone;
-    tempeone = data.list[40].main.temp;
-    currentTempFive.innerHTML = `<strong>${tempeone.toFixed(1)}</strong>`;
-    weather = data.list[40].weather[0].icon;
-    const iconFive = `https://openweathermap.org/img/w/${weather}.png`;
-    weatherIconFive.setAttribute('src', iconFive);
-    const descfive = data.list[40].weather[0].description;
-    weatherIconFive.setAttribute('alt', descfive);
-    captionDescFive.textContent = descfive;
     
   });
   function getWeekday(weekday) {
