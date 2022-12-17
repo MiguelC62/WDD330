@@ -8,8 +8,9 @@ document.getElementById('info-five').onclick = function () {showEmergentWindow(5
 document.getElementById('info-six').onclick = function () {showEmergentWindow(6)};
 document.getElementById('info-seven').onclick = function () {showEmergentWindow(7)};
 
+let url = "https://github.com/MiguelC62/WDD330/blob/main/Final_Project/data/stadiums.json"
 function showEmergentWindow(id){
-  fetch("./data/stadiums.json")
+  fetch(url)
     .then((response) => response.json())
     .then((data) => {
       let stadium = data[id];
