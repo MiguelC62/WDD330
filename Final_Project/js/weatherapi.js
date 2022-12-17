@@ -27,7 +27,7 @@ const chill = document.getElementById('fw');
 //API URL current wearher 
 let lat = 25.286106;
 let long = 51.534817;
-console.log(lat,long)
+//console.log(lat,long)
 const urlCurrent = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=55e6a0445e9b76e56e106624765beb6c&units=metric`;
 const urlForecast = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=55e6a0445e9b76e56e106624765beb6c&units=metric`;
 fetch(urlCurrent)
