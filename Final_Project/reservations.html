@@ -32,8 +32,6 @@
   <main>
     <section id="sec-reservation">
       
-      
-      
       <form method="get" action="thankyou.html" id="form-reservation">
         <div id="last-hotel" class="hotel-saved"><p>Last campus selected:</p></div>
         <fieldset class="main-fieldss">
@@ -41,16 +39,30 @@
           <label class="lbl">Select a Stadium*
             <select id="destination" class="select-lbl" name="destination" required>
               <option value="">--Select a Stadium--</option>
+              <option>Education City Stadium</option>
+              <option>Ahmad Bin Ali Stadium</option>
+              <option>Al Janoub Stadium</option>
+              <option>Stadium 974</option>
+              <option>Al Thumama Stadium</option>
+              <option>Khalifa International Stadium</option>
+              <option>Al Bayt Stadium</option>
+              <option>Lusail Stadium</option>
+                </select>
+              </div>
+
             </select> 
           </label>
-          <label class="lbl">Select a Match*
-            <select id="destination" class="select-lbl" name="destination" required>
-              <option value="">--Pick a Match--</option>
-            </select> 
-          </label>
+          <label class="lbl">Date*<input id="checkIn" type="date" name="check-in" required> </label>
           <label class="lbl">Number of Tickets*
             <select id="roomCombo" class="select-lbl" name="room" required>
               <option value="">--Select a Number--</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              
             </select></label>
         </fieldset>
 
@@ -63,16 +75,13 @@
           <label class="lbl">Phone* <input type="tel" name="phone" pattern="[1-9]{1}[0-9]{9}" placeholder="1235551234" required>
             <!--  -->
           </label>
-          <!-- <label class="lbl">Business name* <input type="text" name="businessname" required> </label> -->
-
+          
           <label><input type="text" name="datetime" id="datetime-loaded" hidden> </label>
         </fieldset>
         
-        <input type="submit" value="Pay Now" class="button-reservation">
+        <input type="submit" value="Submit" class="button-reservation">
 
       </form>
-
-
 
     </section>
   </main>
@@ -80,9 +89,6 @@
 
   </footer>
   
-
-
-
 </body>
 
 </html>

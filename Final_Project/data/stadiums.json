@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Education City Stadium",
+        "capacity": "45,350 spectators",
+        "location": "Education District. Al Rayyan City, Qatar",
+        "matches": " It will host eight matches, including one quarter-final and one round of 16.",
+        "opening": "June 2020 (venue for a solidarity event with sanitary workers during COVID)",
+        "text": "Designed by a Spanish studio, this stadium is also known by the nickname of the 'Desert Diamond', as its circular diamond shape with glittering details on its roof gives it the appearance of such a jewel. It was the first World Cup venue to be awarded a five-star rating for its design by the Global Assessment and Sustainability System organisatio.",
+        "latitude": 25.308998764,
+        "longitude": 51.433831598
+    },
+    {
+        "name": "Ahmad Bin Ali Stadium",
+        "capacity": "40,000 spectators",
+        "location": "Umm Al Afaei District. Al Rayyan City, Qatar",
+        "matches": "The venue will host seven matches in the city, almost all of which are group matches, except for one, which will play for a place in the quarter-finals.",
+        "opening": "18th December 2020 (as the venue for the Amir Cup 2020 final)",
+        "text": "A stadium built using materials reused from its former site, also known as Ahmad Bin Ali Stadium. With a shiny exterior and also in the form of a Qatari tent, the studio that created this piece defined it as a venue where the main motifs of the country's culture are structured: the family, the desert, the indigenous ecosystem and trade as a business. The conjunction of an idea that engages a country that is moving forward in its history, but does not forget its past roots.",
+        "latitude": 25.29194,
+        "longitude": 51.42444
+    },
+    {
+        "name": "Al Janoub Stadium",
+        "capacity": "40,777 spectators",
+        "location": "Al Wakrah City, Qatar",
+        "matches": "With a total of seven World Cup matches, the venue will host most of the group stage matches as well as one match in the round of 16.",
+        "opening": "30th November 2021 (kick-off day of the 2021 FIFA Arab Cup)",
+        "text": "Created by Zaha Hadid's architectural studio, its design is inspired by the city's maritime life, which is why it recreates the shape of the 'dhow', the region's traditional fleet. It is one of the most innovative stadiums in the world, with an operable roof and a solar-powered cooling system. Designed as a removable venue, it has 40,000 seats, of which 20,000 are removable to be placed in other countries in need of such infrastructure for charitable purposes.",
+        "latitude": 25.176817,
+        "longitude": 51.604843
+    },
+    {
+        "name": "Stadium 974",
+        "capacity": "40,000 spectators",
+        "location": "Ras Abu Aboud City, Qatar",
+        "matches": "It is the football pitch with the most curious and striking architectural motif of all the 2022 World Cup stadiums, where a total of seven matches will be played: one in the Round of 16 and the rest in the group matches.",
+        "opening": "November 2020 (on the occasion of the opening match of the Arab Cup 2021)",
+        "text": "The most innovative of the World Cup stadiums. For Stadium 974 is constructed from exactly 974 modified shipping containers - which is also the code for Qatar's branding - making it the world's first fully demountable stadium. In this way, it can be transported to any location that needs a venue that can accommodate around 40,000 spectators.",
+        "latitude": 25.259596,
+        "longitude": 51.583514
+    },
+    {
+        "name": "Al Thumama Stadium",
+        "capacity": "40,000 spectators",
+        "location": "Al Thumama City, Qatar",
+        "matches": "One of the most promising venues of the tournament, where eight matches will be played there, including groups, round of 16 and quarter-finals.",
+        "opening": "22nd October 2021 (on the occasion of the final match of the Amir Cup of the same year)",
+        "text": "The last stadium we are going to talk about in this article is the one in the city of Al Thumama. This stadium is inspired by the 'gahfiya', a traditional hat of the region that symbolises the dignity and independence of the Qatari country. One of the stadiums with the longest useful life in the future, it plans to be the reference in sports structures for the city of Qatar, where it will house a pavilion, an aquatic centre and a mosque after the World Cup. In addition, two local teams will play their home games in the stadium.",
+        "latitude": 25.23474,
+        "longitude": 51.5597
+    },
+    {
+        "name": "Khalifa International Stadium",
+        "capacity": "40,000 spectators",
+        "location": "Al Waab District. Doha City, Qatar",
+        "matches": "Five championship matches will be played there, including the most important one, which is the third and fourth place match. So at this venue, the captain of one of the two nations will win the tournament's consolation trophy.",
+        "opening": "1976, although it was not until 15th May 2017 that it was reopened as a venue for sporting events (it hosted the final of the Emir's Cup 2017)",
+        "text": "It is the oldest stadium of all the World Cup venues. It has hosted historic events such as the Asian Games, the Gulf Cup and the AFC Asian Cup. Although it was closed for a while and it was not until 2017 that the stadium was reopened for the Emir's Cup finals. Today, it has been refurbished for the international event and features new stands, a reconstructed front and an innovative LED lighting system.",
+        "latitude": 25.27932,
+        "longitude": 51.52245
+    },
+    {
+        "name": "Al Bayt Stadium",
+        "capacity": "68,895 spectators",
+        "location": "Al Khor City, 35km north of Doha",
+        "matches": "Eight matches will be played here in addition to the opening match, with two quarter-final and one semi-final.",
+        "opening": "30th November 2021 (kick-off day of the 2021 FIFA Arab Cup)",
+        "text": "The architects who have built each of the World Cup stadiums have been inspired by concepts or ideas drawn from the folklore and cultural situation of Qatar. So much so that the style of the stadium that will host the opening match of the tournament is based on the 'bayt al sha'ar', a type of tent used by the nomadic Qatari people in the desert and which gives its roof its peculiar umbrella, or canopy, shape. The designer Dar Al-Handasah said that his aim with this work.",
+        "latitude": 25.68389,
+        "longitude": 51.50583
+    },
+    {
+        "name": "Lusail Stadium",
+        "capacity": "80,000 spectators",
+        "location": "Lusail City, Qatar",
+        "matches": "As the stadium that hosts the most matches, a total of ten, this venue will also host matches in the semi-finals, quarter-finals, round of 16 and groups. The main reference within this organisation.",
+        "opening": "9th August 2022 (as home of the Qatar Super League)",
+        "text": "It is the stadium that is the main focus of attention. As the venue chosen to host the final, this stadium is already the venue for major events in the Qatari country. Its structure, designed by Foster+ Partners, is an allegory of the lights and shadows of the 'anar' lantern so typical of this nation's culture. In the shape of a bowl, this archetype of sustainability also recreates one of the most important vessels in the golden age of trade and craftsmanship in the Islamic world.",
+        "latitude": 25.500000,
+        "longitude": 51.483334
+    }
+    ]
